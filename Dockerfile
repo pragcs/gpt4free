@@ -15,4 +15,5 @@ COPY . .
 EXPOSE 8080
 
 # Command to start the server
-CMD ["waitress-serve", "--host=0.0.0.0", "--port=8080", "app:app"]
+# CMD ["waitress-serve", "--host=0.0.0.0", "--port=8080", "app:app"]
+CMD ["python", "t.py"]
