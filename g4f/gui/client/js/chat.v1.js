@@ -173,7 +173,7 @@ const ask_gpt = async () => {
                 } else if (message["type"] == "provider") {
                     provider = message.provider
                     content.querySelector('.provider').innerHTML = `
-                        <a href="${provider.url}" target="_blank">
+                        <a href="#" >
                             ${provider.name}
                         </a>
                         ${provider.model ? ' with ' + provider.model : ''}
