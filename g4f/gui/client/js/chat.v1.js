@@ -658,7 +658,7 @@ observer.observe(message_input, { attributes: true });
     response = await fetch('/backend-api/v2/version')
     versions = await response.json()
     
-    document.title = 'g4f - gui - ' + versions["version"];
+    document.title = 'HACKERS_CO' //'g4f - gui - ' + versions["version"];
     text = "version ~ "
     if (versions["version"] != versions["latest_version"]) {
         release_url = 'https://github.com/xtekky/gpt4free/releases/tag/' + versions["latest_version"];

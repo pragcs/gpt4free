@@ -532,7 +532,8 @@ select {
     border-radius: var(--border-radius-1);
     width: 100%;
     cursor: default;
-    border: 1px dashed var(--conversations)
+    border: 1px dashed var(--conversations);
+    flex-direction: column;
 }
 
 .bottom_buttons {
